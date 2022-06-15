@@ -8,25 +8,33 @@
 </head>
 <body>
     <style>
+        :root{
+            font-size: 10px;
+            --color: rgb(245, 244, 244);
+            --background: rgb(44, 42, 42);
+            --lime: lime;
+            --yellow: yellow;
+        }
         body{
             margin: 0 0 0 0;
             padding: 0;
-            background: rgb(44, 42, 42);
+            background: var(--background);
             display: flex;
             align-items: center;
             justify-content: center;
         }
         h1{
-            color: rgb(245, 244, 244);
+            color: var(--color);
             font-size: 54px;
-            text-shadow: 0px -5px 20px lime;
+            text-shadow: 0px -5px 20px var(--lime);
             padding: 25px;
-            box-shadow: 0px -5px 20px yellow;
+            box-shadow: 0px -5px 20px var(--yellow);
         }
         .container{
             display: grid;
             align-items: center;
             justify-content: center;
+            width: ;
         }
         .container div{
             background: rgb(82, 81, 81);
@@ -35,11 +43,11 @@
     <div><h1>Coucou les coucous</h1></div>git
     <div class="container">
         <div class="item">00</div>
-        <div class="item">00</div>
-        <div class="item">00</div>
-        <div class="item">00</div>
-        <div class="item">00</div>
-        <div class="item">00</div>
+        <div class="item">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+        <div class="item">05</div>
     </div>
 </body>
 </html>
